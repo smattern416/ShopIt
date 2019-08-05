@@ -6,9 +6,9 @@ USE products_db;
 CREATE TABLE products (
   
   product_name VARCHAR(30) NOT NULL,
-  product_price MONEY(10),
+  product_price DECIMAL(10,2),
   product_color VARCHAR(20) NOT NULL,
-  product_size VARCHAR(20) INTEGER(3),
+  product_size VARCHAR(20),
   product_type VARCHAR(30),
   product_sku INTEGER(10),
   product_quantity INTEGER(3)
