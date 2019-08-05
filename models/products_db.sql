@@ -64,25 +64,25 @@ INSERT INTO products (product_name, product_price, product_color, product_size, 
 VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+VALUES ("Genie Pants", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+VALUES ("Sayde Slouchy Pant", 198.00, "Deep Olive Camo", "Medium", "Pants", 52482296, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+VALUES ("Psychedelic Jogger", 300.00, "Pink", "Small", "Pants", 49973118, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+VALUES ("Remi Pant", 129.00, "Black Noir", "XSmall", "Pants", 52960143, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+VALUES ("Flynn Trousers", 118.00, "Wild Flower", "Large", "Pants", 49140106, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+VALUES ("Nex Leather Leggings", 500.00, "Scarlet Saga", "Small", "Pants", 47208871, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+VALUES ("Pull On Corduroy Flare", 78.00, "Envy Green", "28", "Pants", 33186198, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+VALUES ("Harper Printed Pull On Pants", 98.00, "Spring Jewels", "Medium", "Pants", 50259670, 1);
