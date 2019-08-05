@@ -16,13 +16,31 @@ CREATE TABLE products (
 
 -- Creates new rows containing data in all named columns --
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Ahmed", TRUE, "Rockington", 100);
+VALUES ("Rebel At Heart Coat", 298.00, "Leopard Combo", "Large", "Jackets", 53083754, 1);
 
-INSERT INTO products (name, has_pet, pet_name, pet_age)
-VALUES ("Ahmed", TRUE, "Rockington", 100);
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Safari Camo Bandits Jacket", 225.00, "Camo", "Medium", "Jackets", 50849900, 1);
 
-INSERT INTO products (name, has_pet, pet_name, pet_age)
-VALUES ("Jacob", TRUE, "Misty", 10);
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Jae Jacket", 330.00, "Sand", "Small", "Jackets", 51396919, 1);
 
-INSERT INTO products (name, has_pet)
-VALUES ("Peter", false);
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Golden Hour Dolman Jacket", 198.00, "Teddy Combo", "Large", "Jackets", 52623899, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Carmella Fur Coat", 398.00, "Tan Combo", "Large", "Jackets", 51924405, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Sherpa Trucker Coat", 98.00, "Ivory", "X-Large", "Jackets", 50228451, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Doma Studded Biker Jacket", 1100.00, "Black", "Medium", "Jackets", 37989266, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Meg Leather Jacket", 850.00, "Red", "Small", "Jackets", 49821705, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Rebel At Heart Coat", 298.00, "Leopard Combo", "Large", "Jackets", 53083754, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Rebel At Heart Coat", 298.00, "Leopard Combo", "Large", "Jackets", 53083754, 1);
