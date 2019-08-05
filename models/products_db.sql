@@ -40,7 +40,49 @@ INSERT INTO products (product_name, product_price, product_color, product_size, 
 VALUES ("Meg Leather Jacket", 850.00, "Red", "Small", "Jackets", 49821705, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Rebel At Heart Coat", 298.00, "Leopard Combo", "Large", "Jackets", 53083754, 1);
+VALUES ("Chelsea Platform Sandal", 168.00, "Snake", "EU 40", "Shoes", 52620697, 1);
 
 INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
-VALUES ("Rebel At Heart Coat", 298.00, "Leopard Combo", "Large", "Jackets", 53083754, 1);
+VALUES ("Tai Platform Menswear", 425.00, "Multi", "EU 38", "Shoes", 53312161, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Elisa Velvet Sneaker", 168.00, "Emerald", "EU 38", "Shoes", 52823606, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Barclay Ankle Boot", 168.00, "Tan Snake", "EU 41", "Shoes", 51049005, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Friday Night Platform Boot", 198.00, "Green Suede", "EU 39", "Shoes", 49143019, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Sidelines Footbed Sandal", 78.00, "Viola", "EU 40", "Shoes", 50135482, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Indio Mocc Boot", 598.00, "Freedom Flower", "EU 38", "Shoes", 52133451, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
+
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
+VALUES ("Nikola Heel Boot", 178.00, "Leopard", "EU 39", "Shoes", 49764301, 1);
