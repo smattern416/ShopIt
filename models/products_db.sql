@@ -1,29 +1,28 @@
-CREATE DATABASE animals_db;
+CREATE DATABASE products_db;
 
--- Makes it so all of the following code will affect animals_db --
 USE products_db;
 
--- Creates the table "people" within animals_db --
+
 CREATE TABLE products (
-  -- Makes a string column called "name" which cannot contain null --
-  name VARCHAR(30) NOT NULL,
-  -- Makes a boolean column called "has_pet" which cannot contain null --
-  name VARCHAR(30) NOT NULL,
-  -- Makes a sting column called "pet_name" --
-  pet_name VARCHAR(30),
-  -- Makes an numeric column called "pet_age" --
-  pet_age INTEGER(10)
+  
+  product_name VARCHAR(30) NOT NULL,
+  product_price MONEY(10),
+  product_color VARCHAR(20) NOT NULL,
+  product_size VARCHAR(20) INTEGER(3),
+  product_type VARCHAR(30),
+  product_sku INTEGER(10),
+  product_quantity INTEGER(3)
 );
 
 -- Creates new rows containing data in all named columns --
-INSERT INTO people (name, has_pet, pet_name, pet_age)
+INSERT INTO products (product_name, product_price, product_color, product_size, product_type, product_sku, product_quantity)
 VALUES ("Ahmed", TRUE, "Rockington", 100);
 
-INSERT INTO people (name, has_pet, pet_name, pet_age)
+INSERT INTO products (name, has_pet, pet_name, pet_age)
 VALUES ("Ahmed", TRUE, "Rockington", 100);
 
-INSERT INTO people (name, has_pet, pet_name, pet_age)
+INSERT INTO products (name, has_pet, pet_name, pet_age)
 VALUES ("Jacob", TRUE, "Misty", 10);
 
-INSERT INTO people (name, has_pet)
+INSERT INTO products (name, has_pet)
 VALUES ("Peter", false);
