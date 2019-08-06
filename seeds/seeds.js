@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const db = require("../models");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/project_3_test");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/shopit");
 
 const productsSeed = [
     {
@@ -212,9 +212,9 @@ const productsSeed = [
         product_description: "Floral printed pull-on pants featured in a flare silhouette."
     }
 
-
-
-    db.Project.collection.insertMany(projectSeed)
+]
+   console.log(productsSeed)
+    db.Product.collection.insertMany(productsSeed)
     .then(dbModel => {
         console.log(dbModel)
     })
