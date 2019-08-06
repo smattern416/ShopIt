@@ -1,6 +1,7 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
-const passportLocalMongoose = require('passport-local-mongoose');
+const mongoose = require("mongoose");
+const db = require("../models");
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/project_3_test");
 
 const productsSeed = [
     {
@@ -10,7 +11,7 @@ const productsSeed = [
         // product_size: ""
         product_type: "Jackets",
         product_sku: 53083754,
-        product_image: "/Users/stephaniemattern/Desktop/ShopIt/client/public/images/jackets/rebel at heart.jpeg",
+        product_image: "images/jackets/rebel at heart.jpeg",
         // product_quantity: 
     },
     {
@@ -32,21 +33,10 @@ const productsSeed = [
         // product_quantity:  
     }
 
-    {
 
-    }
-    // username: String,
-    // password: String,
-    // product_name: String,
-    // product_price DECIMAL(10,2),
-    // product_color VARCHAR(20) NOT NULL,
-    // product_size VARCHAR(20),
-    // product_type VARCHAR(30),
-    // product_sku INTEGER(10),
-    // product_quantity INTEGER(3)
-    }
-];
 
-Product.plugin(passportLocalMongoose);
-
-module.exports = mongoose.model('products', Product);
+    db.Project.collection.insertMany(projectSeed)
+    .then(dbModel => {
+        console.log(dbModel)
+    })
+    .catch(err => console.log(err));
