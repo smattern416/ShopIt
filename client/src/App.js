@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import {
 	BrowserRouter as Router,
 	Route,
@@ -9,7 +9,9 @@ import {
 } from 'react-router-dom';
 import Auth from "./utils/Auth";
 import Nav from "./components/Nav";
+import Jumbotron from "./components/Jumbotron";
 import Login from "./components/Login";
+import SearchBar from "./components/SearchBar";
 import Register from "./components/Register";
 import {Container} from "./components/Grid";
 import PublicRoute from "./pages/PublicRoute";
@@ -22,10 +24,34 @@ const listStyle = {
 	listStyle:'none'
   };
 //Now we have all the stuff we need .. let's render some components with the Router
-const AuthExample = () => (
+class AuthExample extends Component {
+	state = {
+		q: ""
+	}
+	handleInputChange = event => {
+		const { name, value } = event.target;
+		this.setState({
+		  [name]: value
+		});
+	  };
+	  handleFormSubmit = event => {
+		event.preventDefault();
+		 if (event.key === 'Enter') {
+		  console.log('enter key pressed')
+		}
+	  };
+	  
+
+	render() {
+		return (
 	<Router>
 		<div>
-      		<Nav className="App-header"/>
+		<Jumbotron></Jumbotron>
+			  <SearchBar 
+			  handleInputChange = {this.handleInputChange}
+			  handleFormSubmit = {this.handleFormSubmit}
+			  onKeyPress={this.handleKeyPress}
+			  q = {this.state.q} />
 			<Container>
 				<AuthButton/>
 				<ul style={listStyle}>
@@ -43,7 +69,9 @@ const AuthExample = () => (
 			</Container>
 		</div>
 	</Router>
-)
+		);	
+	}
+}
 
 
 //Authbutton component / withRouter is imported from react-router
