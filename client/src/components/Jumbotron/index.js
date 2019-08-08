@@ -7,6 +7,7 @@ function Jumbotron({ children }) {
       <br></br>
       <br></br>
       <p>Set your price. We ShopIt for you.</p>
+      
   </div>;
 }
 
