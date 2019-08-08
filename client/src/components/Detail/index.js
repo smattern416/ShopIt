@@ -1,5 +1,6 @@
-import React from "react";
+import React, {Component} from 'react'
 import "./style.css"
+import Jumbotron from "../Jumbotron";
 
 
 function Detail({ q, handleInputChange, handleFormSubmit }) {

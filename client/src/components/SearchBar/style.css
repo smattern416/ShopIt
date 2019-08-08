@@ -23,9 +23,9 @@ nav {
     margin:0;
     width: 500px;
 }
-
-/* .nav-wrapper,
-.input-field,
-input {
-    width: 50%
-} */
+.search {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}

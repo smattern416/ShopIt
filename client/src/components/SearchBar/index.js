@@ -19,8 +19,9 @@ function SearchBar({ q, handleInputChange, handleFormSubmit }) {
           <label className="label-icon" for="search"></label>
         </div>
       </form>
-    
+      <div className="btn btn-primary btn-lg search" href="/login" role="button">Search!</div>
   </div>
+  
   );
 }
 

@@ -68,6 +68,15 @@ const productsSeed = [
         product_description: "Made from an oh-so soft luxe leather, this edgy jacket features allover metal stud detailing." 
     },
     {
+        product_name: "Himalaya Vest",
+        product_price: 1100.00,
+        product_color: "Beige/Black",
+        product_type: "Jackets",
+        product_sku: 51962124,
+        product_image: "client/public/images/jackets/himalaya.jpeg",
+        product_description: "Luxe shearling vest from Nicholas K featured in a moto-inspired style with leather trim."
+    },
+    {
         product_name: "Chelsea Platform Sandal",
         product_price: 168.00,
         product_color: "Snake",
@@ -140,6 +149,15 @@ const productsSeed = [
         product_description: "Chic suede ankle boots featured in a mid-calf design with rounded toes and a chunky block heel."
     },
     {
+        product_name: "Arizona Soft Footbed Birkenstock",
+        product_price: 135.00,
+        product_color: "Antique Port",
+        product_type: "Shoes",
+        product_sku: 42293522,
+        product_image: "client/public/images/shoes/birkenstock.jpeg",
+        product_description: "Classic two-strap Birkenstock with fully adjustable straps. Thick and supple suede upper with an ultra-comfortable super soft footbed."   
+    },
+    {
         product_name: "Genie Pants",
         product_price: 178.00,
         product_color: "Mars Batik",
@@ -210,6 +228,15 @@ const productsSeed = [
         product_sku: 50259670,
         product_image: "client/public/images/pants/harper.jpeg",
         product_description: "Floral printed pull-on pants featured in a flare silhouette."
+    },
+    {
+        product_name: "Edie Flare Pants",
+        product_price: 288.00,
+        product_color: "Mustard",
+        product_type: "Pants",
+        product_sku: 53444014,
+        product_image: "client/public/images/pants/Edie.jpeg",
+        product_description: ""
     }
 
 ]

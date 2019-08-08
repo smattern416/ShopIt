@@ -7,8 +7,9 @@ function Jumbotron({ children }) {
       <br></br>
       <br></br>
       <p>Set your price. We ShopIt for you.</p>
-      <a class="btn btn-primary btn-lg" href="/login" role="button">Sign In</a>
-      <a class="btn btn-primary btn-lg" href="/register" role="button">Sign Up</a>
+      <br></br>
+      <a className="btn btn-primary btn-lg login" href="/login" role="button">Sign In</a>
+      <a className="btn btn-primary btn-lg register" href="/register" role="button">Sign Up</a>
       
   </div>;
 }

@@ -3,11 +3,19 @@
   background-size: cover;
   height: 80vh;
   text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 100%
 };
 h1 {
   font-size: 200pt
 }
 p {
   font-size: 50pt
+}
+.login {
+  background-color: black;
+  margin: 20px;
+}
+.register {
+  background-color: black
 }
