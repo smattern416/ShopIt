@@ -3,14 +3,11 @@
   background-size: cover;
   height: 80vh;
   text-align: center;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif
 };
 h1 {
-  background-color: black;
-};
-.background-block {
-  height: 200px;
-  width: 400px;
-  background-color: black;
-  z-index: 3;
+  font-size: 200pt
+}
+p {
+  font-size: 50pt
 }

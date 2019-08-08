@@ -1,9 +1,10 @@
 import React from "react";
+import "./style.css"
 
 function SearchBar({ q, handleInputChange, handleFormSubmit }) {
   return (
-    <nav>
-    <div className="nav-wrapper">
+    <div className="searchWrapper">
+    
       <form>
         <div className="input-field">
           <input 
@@ -15,12 +16,11 @@ function SearchBar({ q, handleInputChange, handleFormSubmit }) {
             onChange = {handleInputChange}
             required
           />
-          <label className="label-icon" for="search"><i className="material-icons">search</i></label>
-          <i className="material-icons">close</i>
+          <label className="label-icon" for="search"></label>
         </div>
       </form>
-    </div>
-  </nav>
+    
+  </div>
   );
 }
 

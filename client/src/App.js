@@ -31,7 +31,7 @@ class AuthExample extends Component {
 	handleInputChange = event => {
 		const { name, value } = event.target;
 		this.setState({
-		  [name]: value
+		  q: value
 		});
 	  };
 	  handleFormSubmit = event => {
@@ -41,7 +41,6 @@ class AuthExample extends Component {
 		}
 	  };
 	  
-
 	render() {
 		return (
 	<Router>

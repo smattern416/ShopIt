@@ -3,9 +3,8 @@ import "./style.css";
 
 function Jumbotron({ children }) {
   return <div className="jumbotron mt-4">
-    <div className="background-block">
       <h1>ShopIt</h1>
-    </div>
+      <p>Set your price. We ShopIt for you.</p>
   </div>;
 }
 

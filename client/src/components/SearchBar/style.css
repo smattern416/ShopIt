@@ -1,3 +1,31 @@
-nav {
-    width: 50%;
+#search {
+    width: 400px;
+    background-color: pink;
+    color: black;
+    padding-left: 5px;
+    
+};
+::placeholder {
+    padding-left: 5px;
+    color: gray;
+    opacity: 1; /* Firefox */
+  }
+.searchWrapper {
+    margin: 0 auto;
+    width: 400px;
+    /* height: 100px; */
+    background-color: pink;
 }
+nav {
+    width: 400px;
+}
+.nav-wrapper {
+    margin:0;
+    width: 500px;
+}
+
+/* .nav-wrapper,
+.input-field,
+input {
+    width: 50%
+} */
