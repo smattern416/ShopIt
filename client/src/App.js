@@ -10,6 +10,7 @@ import {
 import Auth from "./utils/Auth";
 import Nav from "./components/Nav";
 import Jumbotron from "./components/Jumbotron";
+import Detail from "./components/Detail";
 import Login from "./components/Login";
 import SearchBar from "./components/SearchBar";
 import Register from "./components/Register";
@@ -17,6 +18,7 @@ import {Container} from "./components/Grid";
 import PublicRoute from "./pages/PublicRoute";
 import ProtectedRoute from "./pages/PublicRoute";
 import './App.css';
+import MainPage from './components/MainPage';
 
 //I want to add some basic inline styling here, even though we are bringing in styles
 const listStyle = {
@@ -25,44 +27,39 @@ const listStyle = {
   };
 //Now we have all the stuff we need .. let's render some components with the Router
 class AuthExample extends Component {
-	state = {
-		q: ""
-	}
-	handleInputChange = event => {
-		const { name, value } = event.target;
-		this.setState({
-		  q: value
-		});
-	  };
-	  handleFormSubmit = event => {
-		event.preventDefault();
-		 if (event.key === 'Enter') {
-		  console.log('enter key pressed')
-		}
-	  };
+	// state = {
+	// 	q: ""
+	// }
+	// handleInputChange = event => {
+	// 	const { name, value } = event.target;
+	// 	this.setState({
+	// 	  q: value
+	// 	});
+	//   };
+	//   handleFormSubmit = event => {
+	// 	event.preventDefault();
+	// 	 if (event.key === 'Enter') {
+	// 	  console.log('enter key pressed')
+	// 	}
+	//   };
 	  
 	render() {
 		return (
 	<Router>
 		<div>
-		<Jumbotron></Jumbotron>
-			  <SearchBar 
-			  handleInputChange = {this.handleInputChange}
-			  handleFormSubmit = {this.handleFormSubmit}
-			  onKeyPress={this.handleKeyPress}
-			  q = {this.state.q} />
 			<Container>
-				<AuthButton/>
-				<ul style={listStyle}>
+				{/* <AuthButton/> */}
+				{/* <ul style={listStyle}>
 					<li><Link to="/public">Public Page</Link></li>
 					<li><Link to="/protected">Protected Page</Link></li>
 					<li><Link to="/register">Register a New User</Link></li>
-				</ul>
+				</ul> */}
 				<Switch>
-					<Route path="/public" component={PublicRoute}/>
-					<Route path="/login" component={Login}/>
-					<Route path="/register" component={Register}/>
+					{/* <Route path="/public" component={PublicRoute}/> */}
+					<Route exact path="/login" component={Login}/>
+					<Route exact path="/register" component={Register}/>
 					<PrivateRoute path="/protected" component={ProtectedRoute}/>
+					<Route exact path = "/" component={MainPage}/>
 					{/* <Route component={NoMatch} /> */}
 				</Switch>
 			</Container>
