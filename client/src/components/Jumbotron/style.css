@@ -19,3 +19,6 @@ p {
 .register {
   background-color: black
 }
+.container {
+  width: 100%;
+}

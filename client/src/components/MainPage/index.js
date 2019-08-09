@@ -2,7 +2,9 @@ import React, {Component} from 'react'
 import "./style.css"
 import Jumbotron from "../Jumbotron";
 import SearchBar from "../SearchBar";
-import Card from '../Card';
+import List from '../List/List';
+import Card from '../List/Card';
+
 
 
 

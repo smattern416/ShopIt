@@ -13,8 +13,9 @@
 .searchWrapper {
     margin: 0 auto;
     width: 400px;
+    align-content: center;
     /* height: 100px; */
-    background-color: pink;
+    /* background-color: pink; */
 }
 nav {
     width: 400px;
@@ -23,9 +24,11 @@ nav {
     margin:0;
     width: 500px;
 }
-.search {
+.submit {
     text-align: center;
     background-color: black;
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
+    align-self: center;
+    margin-left: 11rem;
 }

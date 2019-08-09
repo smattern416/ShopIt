@@ -12,6 +12,8 @@ import Nav from "./components/Nav";
 import Jumbotron from "./components/Jumbotron";
 import Detail from "./components/Detail";
 import Login from "./components/Login";
+import List from "./components/List";
+import List from "./components/List/Card";
 import SearchBar from "./components/SearchBar";
 import Register from "./components/Register";
 import {Container} from "./components/Grid";
