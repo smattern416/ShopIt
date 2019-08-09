@@ -10,7 +10,7 @@ const productsSeed = [
         product_color: "Leopard Combo",
         product_type: "Jackets",
         product_sku: 53083754,
-        product_image: "images/jackets/rebel at heart.jpeg",
+        product_image: "images/jackets/rebel.jpeg",
         product_description: "Textured knit coat featured in a classic collared longline style with a wild leopard print."
     },
     {
@@ -19,7 +19,7 @@ const productsSeed = [
         product_color: "Sand",
         product_type: "Jackets",
         product_sku: 51396919,
-        product_image: "client/public/images/jackets/jae.jpeg",
+        product_image: "images/jackets/jae.jpeg",
         product_description: "Vintage-inspired faux suede coat featuring oh-so soft statement faux shearling lining and trim."
     },
     {
@@ -28,7 +28,7 @@ const productsSeed = [
         product_color: "Teddy Combo",
         product_type: "Jackets",
         product_sku: 52623899,
-        product_image: "client/public/images/jackets/golden hour dolman.jpeg",
+        product_image: "images/jackets/dolman.jpeg",
         product_description: "Plush fleece dolman jacket featured in a colorful mixed pattern with patched zip pockets."
     },
     {
@@ -37,7 +37,7 @@ const productsSeed = [
         product_color: "Tan Combo",
         product_type: "Jackets",
         product_sku: 51924405,
-        product_image: "client/public/images/jackets/carmella fur.jpeg",
+        product_image: "images/jackets/carmella.jpeg",
         product_description: "Plush faux fur jacket featured in a double-breasted style with a colorful printed design."
     },
     {
@@ -46,7 +46,7 @@ const productsSeed = [
         product_color: "Ivory",
         product_type: "Jackets",
         product_sku: 50228451,
-        product_image:"client/public/images/jackets/sherpa.jpeg",
+        product_image:"images/jackets/sherpa.jpeg",
         product_description: "Oversized and slouchy trucker jacket featured in a fuzzy faux-sherpa."
     },
     {
@@ -55,7 +55,7 @@ const productsSeed = [
         product_color: "Black",
         product_type: "Jackets",
         product_sku: 37989266,
-        product_image: "client/public/images/jackets/doma studded.jpeg",
+        product_image: "images/jackets/doma.jpeg",
         product_description: "Equal parts edgy and chic, this so-soft leather biker jacket features beautiful craftsmanship and a classically cool silhouette. Studded details along the sleeves make for an inspired moto look. Exposed zip closure and two front zip pockets. Zip accents at the sleeve cuffs for an effortless fit."
     },
     {
@@ -64,7 +64,7 @@ const productsSeed = [
         product_color: "Red",
         product_type: "Jackets",
         product_sku: 49821705,
-        product_image: "client/public/images/jackets/meg red leather.jpeg",
+        product_image: "images/jackets/meg.jpeg",
         product_description: "Made from an oh-so soft luxe leather, this edgy jacket features allover metal stud detailing." 
     },
     {
@@ -73,7 +73,7 @@ const productsSeed = [
         product_color: "Beige/Black",
         product_type: "Jackets",
         product_sku: 51962124,
-        product_image: "client/public/images/jackets/himalaya.jpeg",
+        product_image: "images/jackets/himalaya.jpeg",
         product_description: "Luxe shearling vest from Nicholas K featured in a moto-inspired style with leather trim."
     },
     {
@@ -82,7 +82,7 @@ const productsSeed = [
         product_color: "Snake",
         product_type: "Shoes",
         product_sku: 52620697,
-        product_image: "client/public/images/shoes/chelsea platform.jpeg",
+        product_image: "images/shoes/chelsea.jpeg",
         product_description: "Spanish-made bold snake print platform sandals featuring a strappy design with belted details."
     },
     {
@@ -91,7 +91,7 @@ const productsSeed = [
         product_color: "Multi",
         product_type: "Shoes",
         product_sku: 53312161,
-        product_image: "client/public/images/shoes/tai platform.jpeg",
+        product_image: "images/shoes/tai.jpeg",
         product_description: "Chunky platform loafers featured in a menswear-inspired silhouette with a printed calf hair upper and belted tongue."
     },
     {
@@ -100,7 +100,7 @@ const productsSeed = [
         product_color: "Emerald",
         product_type: "Shoes",
         product_sku: 52823606,
-        product_image: "client/public/images/shoes/elisa velvet.jpeg",
+        product_image: "images/shoes/elisa.jpeg",
         product_description: "Italian-made retro-style chunky sneakers featuring a shining velvet upper and lace-up front."
     },
     {
@@ -109,7 +109,7 @@ const productsSeed = [
         product_color: "Tan Snake",
         product_type: "Shoes",
         product_sku: 51049005,
-        product_image: "client/public/images/shoes/barclay snakeskin.jpeg",
+        product_image: "images/shoes/barclay.jpeg",
         product_description: "Classic western-inspired leather boots featuring a curved top edge and a tall block heel."
     },
     {
@@ -118,7 +118,7 @@ const productsSeed = [
         product_color: "Green Suede",
         product_type: "Shoes",
         product_sku: 49143019,
-        product_image: "client/public/images/shoes/friday night platform.jpeg",
+        product_image: "images/shoes/friday.jpeg",
         product_description: "Make a statement in these retro suede boots featuring a sky-high platform heel with a slim fitting mid-calf rise."
     },
     {
@@ -127,7 +127,7 @@ const productsSeed = [
         product_color: "Viola",
         product_type: "Shoes",
         product_sku: 50135482,
-        product_image: "client/public/images/shoes/sidelines.jpeg",
+        product_image: "images/shoes/sidelines.jpeg",
         product_description: "Spanish-made faux snakeskin sandals featuring wide crisscross straps and a contoured footbed."
     },
     {
@@ -136,7 +136,7 @@ const productsSeed = [
         product_color: "Freedom Flower",
         product_type: "Shoes",
         product_sku: 52133451,
-        product_image: "client/public/images/shoes/indio mocc boot.jpeg",
+        product_image: "images/shoes/indio.jpeg",
         product_description: "Italian made pastel patterned suede boots featured in a moccasin-inspired style with an over-the-knee fit, fringe trim and belted details."
     },
     {
@@ -145,7 +145,7 @@ const productsSeed = [
         product_color: "Leopard",
         product_type: "Shoes",
         product_sku: 49764301,
-        product_image: "client/public/images/shoes/nikola leopard.jpeg",
+        product_image: "images/shoes/nikola.jpeg",
         product_description: "Chic suede ankle boots featured in a mid-calf design with rounded toes and a chunky block heel."
     },
     {
@@ -154,7 +154,7 @@ const productsSeed = [
         product_color: "Antique Port",
         product_type: "Shoes",
         product_sku: 42293522,
-        product_image: "client/public/images/shoes/birkenstock.jpeg",
+        product_image: "images/shoes/birkenstock.jpeg",
         product_description: "Classic two-strap Birkenstock with fully adjustable straps. Thick and supple suede upper with an ultra-comfortable super soft footbed."   
     },
     {
@@ -163,7 +163,7 @@ const productsSeed = [
         product_color: "Mars Batik",
         product_type: "Pants",
         product_sku: 49764301,
-        product_image: "client/public/images/pants/genie.jpeg",
+        product_image: "images/pants/genie.jpeg",
         product_description: "Printed and lightweight harem pants featured in a slouchy silhouette."
     },
     {
@@ -172,7 +172,7 @@ const productsSeed = [
         product_color: "Deep Olive Camo",
         product_type: "Pants",
         product_sku: 52482296,
-        product_image: "client/public/images/pants/sayde slouchy.jpeg",
+        product_image: "images/pants/sayde.jpeg",
         product_description: "Slouchy cotton joggers from NSF featuring a camo print and slim-fitting tapered legs."
     },
     {
@@ -181,7 +181,7 @@ const productsSeed = [
         product_color: "Pink",
         product_type: "Pants",
         product_sku: 49973118,
-        product_image: "client/public/images/pants/psychedelic jogger.jpeg",
+        product_image: "images/pants/psychedelic.jpeg",
         product_description: "Comfy tie dye joggers featured in a slouchy silhouette."
     },
     {
@@ -190,7 +190,7 @@ const productsSeed = [
         product_color: "Black Noir",
         product_type: "Pants",
         product_sku: 52960143,
-        product_image: "client/public/images/pants/remi.jpeg",
+        product_image: "images/pants/remi.jpeg",
         product_description: "Standout in these polka dotted printed pants featured in a straight-leg silhouette."
     },
     {
@@ -199,7 +199,7 @@ const productsSeed = [
         product_color: "Wild Flower",
         product_type: "Pants",
         product_sku: 49140106,
-        product_image: "client/public/images/pants/flynn trouser.jpeg",
+        product_image: "images/pants/flynn.jpeg",
         product_description: "Soft and lightweight, these trousers are featured in a striped pattern."
     },
     {
@@ -208,7 +208,7 @@ const productsSeed = [
         product_color: "Scarlet Saga",
         product_type: "Pants",
         product_sku: 47208871,
-        product_image: "client/public/images/pants/nex leather.jpeg",
+        product_image: "images/pants/nex.jpeg",
         product_description: "Luxe leather leggings featured in a high-rise silhouette."
     },
     {
@@ -217,7 +217,7 @@ const productsSeed = [
         product_color: "Envy Green",
         product_type: "Pants",
         product_sku: 33186198,
-        product_image: "client/public/images/pants/Cord Flare.jpeg",
+        product_image: "images/pants/Cord.jpeg",
         product_description: "A twist on FP fave, the Pull on Kick Flares, these stretchy pull-on flared cords feature faux closures in front and a streamlined elastic waistband."     
     },
     {
@@ -226,7 +226,7 @@ const productsSeed = [
         product_color: "Spring Jewels",
         product_type: "Pants",
         product_sku: 50259670,
-        product_image: "client/public/images/pants/harper.jpeg",
+        product_image: "images/pants/harper.jpeg",
         product_description: "Floral printed pull-on pants featured in a flare silhouette."
     },
     {
@@ -235,14 +235,14 @@ const productsSeed = [
         product_color: "Mustard",
         product_type: "Pants",
         product_sku: 53444014,
-        product_image: "client/public/images/pants/Edie.jpeg",
+        product_image: "images/pants/Edie.jpeg",
         product_description: ""
     }
 
 ]
    console.log(productsSeed)
     db.Product.collection.insertMany(productsSeed)
-    .then(dbModel => {
-        console.log(dbModel)
-    })
-    .catch(err => console.log(err));
+    // .then(dbModel => {
+    //     console.log(dbModel)
+    // })
+    // .catch(err => console.log(err));
