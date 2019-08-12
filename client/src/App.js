@@ -13,7 +13,6 @@ import Jumbotron from "./components/Jumbotron";
 import Detail from "./components/Detail";
 import Login from "./components/Login";
 import List from "./components/List";
-import List from "./components/List/Card";
 import SearchBar from "./components/SearchBar";
 import Register from "./components/Register";
 import {Container} from "./components/Grid";
@@ -21,6 +20,7 @@ import PublicRoute from "./pages/PublicRoute";
 import ProtectedRoute from "./pages/PublicRoute";
 import './App.css';
 import MainPage from './components/MainPage';
+import API from './utils/API';
 
 //I want to add some basic inline styling here, even though we are bringing in styles
 const listStyle = {
@@ -44,6 +44,8 @@ class AuthExample extends Component {
 	// 	  console.log('enter key pressed')
 	// 	}
 	//   };
+
+
 	  
 	render() {
 		return (
@@ -59,8 +61,9 @@ class AuthExample extends Component {
 				<Switch>
 					{/* <Route path="/public" component={PublicRoute}/> */}
 					<Route exact path="/login" component={Login}/>
+					<Route exact path="/itemdetail" component={Detail}/>
 					<Route exact path="/register" component={Register}/>
-					<PrivateRoute path="/protected" component={ProtectedRoute}/>
+					<PrivateRoute exact path="/protected" component={ProtectedRoute}/>
 					<Route exact path = "/" component={MainPage}/>
 					{/* <Route component={NoMatch} /> */}
 				</Switch>

@@ -1,16 +1,16 @@
 .jumbotron {
   background-image: url("/images/lala-v-a9-FEiY9eRw-unsplash.jpg");
   background-size: cover;
-  height: 80vh;
+  height: 70vh;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
   width: 100%
 };
-h1 {
-  font-size: 200pt
+.title {
+  font-size: 80pt
 }
-p {
-  font-size: 50pt
+.tagLine {
+  font-size: 30pt
 }
 .login {
   background-color: black;

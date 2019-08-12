@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"
 
-function SearchBar({ q, handleInputChange, handleFormSubmit }) {
+function SearchBar({ q, handleInputChange, handleFormSubmit, props }) {
   return (
     <div className="searchWrapper">
     
@@ -11,7 +11,7 @@ function SearchBar({ q, handleInputChange, handleFormSubmit }) {
             id="search" 
             type="search" 
             value = {q}
-            placeholder = "shoes"
+            placeholder = "SHOES"
             name = {q}
             onChange = {handleInputChange}
             required
@@ -19,7 +19,7 @@ function SearchBar({ q, handleInputChange, handleFormSubmit }) {
           <label className="label-icon" for="search"></label>
         </div>
       </form>
-      <div className="btn btn-primary btn-lg submit" href="/login" role="button">Search!</div>
+      <div className="btn btn-primary btn-lg submit" onClick={handleFormSubmit} href="/login" role="button">Search!</div>
   </div>
   
   );

@@ -1,19 +1,29 @@
-import React from "react";
+import React from "react"
 import "./style.css"
+import {Link} from "react-router-dom"
 
-const Card = props => (
-   <div>
-   <li>
-    <div className="card mt-4">
-    <img className="cardImage" src={props.children.product_image}></img>
-      <div className="card-body">
-      <h5 className= "card-title">{props.children.product_name}</h5>
-      <p className= "card-text">{props.children.product_price}</p>
-      </div>
+
+let newid = ""
+
+function Card(props) {
+    let passid = (id) => {
+        return newid=id
+    }
+
+  return (
+    <Link to="/itemdetail">
+    <div className="card" onClick={()=>passid(props.id)}>
+        <div className="img-container">
+        <img className="cardImage" src={props.image} alt="cardImg"></img>
+        </div>
+        <div className="content">
+            <h5 className= "card-title">{props.name}</h5>
+            <p className= "card-text">${props.price}</p>
+        </div>
     </div>
-    </li>
-    </div>
-  );
+    </Link>
+  )
+  }
 
 
-export default Card;
+export {Card, newid};

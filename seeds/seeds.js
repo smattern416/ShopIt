@@ -46,7 +46,7 @@ const productsSeed = [
         product_color: "Ivory",
         product_type: "Jackets",
         product_sku: 50228451,
-        product_image:"images/jackets/sherpa.jpeg",
+        product_image: "images/jackets/sherpa.jpeg",
         product_description: "Oversized and slouchy trucker jacket featured in a fuzzy faux-sherpa."
     },
     {
@@ -65,7 +65,16 @@ const productsSeed = [
         product_type: "Jackets",
         product_sku: 49821705,
         product_image: "images/jackets/meg.jpeg",
-        product_description: "Made from an oh-so soft luxe leather, this edgy jacket features allover metal stud detailing." 
+        product_description: "Made from an oh-so soft luxe leather, this edgy jacket features allover metal stud detailing."
+    },
+    {
+        product_name: "Safari Camo Bandits Jacket",
+        product_price: 160.00,
+        product_color: "Camo",
+        product_type: "Jackets",
+        product_sku: 50849900,
+        product_image: "images/jackets/camo.jpeg",
+        product_description: "Camo printed denim jacket featured in a slouchy silhouette."
     },
     {
         product_name: "Himalaya Vest",
@@ -155,7 +164,7 @@ const productsSeed = [
         product_type: "Shoes",
         product_sku: 42293522,
         product_image: "images/shoes/birkenstock.jpeg",
-        product_description: "Classic two-strap Birkenstock with fully adjustable straps. Thick and supple suede upper with an ultra-comfortable super soft footbed."   
+        product_description: "Classic two-strap Birkenstock with fully adjustable straps. Thick and supple suede upper with an ultra-comfortable super soft footbed."
     },
     {
         product_name: "Genie Pants",
@@ -218,7 +227,7 @@ const productsSeed = [
         product_type: "Pants",
         product_sku: 33186198,
         product_image: "images/pants/Cord.jpeg",
-        product_description: "A twist on FP fave, the Pull on Kick Flares, these stretchy pull-on flared cords feature faux closures in front and a streamlined elastic waistband."     
+        product_description: "A twist on FP fave, the Pull on Kick Flares, these stretchy pull-on flared cords feature faux closures in front and a streamlined elastic waistband."
     },
     {
         product_name: "Harper Printed Pull On Pants",
@@ -236,12 +245,12 @@ const productsSeed = [
         product_type: "Pants",
         product_sku: 53444014,
         product_image: "images/pants/Edie.jpeg",
-        product_description: ""
+        product_description: "Retro-inspired crochet paints featured in a flared silhouette with a high-rise waist."
     }
 
 ]
-   console.log(productsSeed)
-    db.Product.collection.insertMany(productsSeed)
+console.log(productsSeed)
+db.Product.collection.insertMany(productsSeed)
     // .then(dbModel => {
     //     console.log(dbModel)
     // })
