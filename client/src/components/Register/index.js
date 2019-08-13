@@ -1,6 +1,8 @@
 import React from 'react';
 import RegisterForm from "../RegisterForm";
 import {Redirect} from "react-router-dom";
+import "./style.css"
+
 //The component for doing the actual signup of the User
 class Register extends React.Component {
 	state = {

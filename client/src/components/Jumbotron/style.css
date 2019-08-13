@@ -6,8 +6,12 @@
   font-family: 'Open Sans Condensed', sans-serif;
   width: 100%
 }
+h1 {
+  font-family: 'Monoton', cursive;
+}
 .title {
-  font-size: 80pt
+  font-size: 80pt;
+  font-family: 'Monoton', cursive;
 }
 .tagLine {
   font-size: 30pt

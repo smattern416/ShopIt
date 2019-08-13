@@ -16,7 +16,8 @@ p {
 h2 {
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
-    font-weight: bold
+    font-weight: bold;
+    text-decoration: underline black
 }
 .shopButton {
     height: 5rem;
@@ -24,4 +25,8 @@ h2 {
     color: white;
     font-size: 20pt;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+.message {
+    font-weight: bolder;
+    text-align: center
 }

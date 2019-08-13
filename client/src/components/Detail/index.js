@@ -75,7 +75,7 @@ class Detail extends React.Component {
               </Form>
             </div>
             <div>
-              <p>{this.state.message}</p>
+              <p className="message">{this.state.message}</p>
             </div>
           </div>
         </div>

@@ -2,6 +2,8 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 import LoginForm from "../LoginForm";
 import Auth from "../../utils/Auth";
+import "./style.css"
+
 //Uses the Auth methods to actually login with the LoginForm Component.
 class Login extends React.Component {
     //Initial boolean to check for authenticated user
@@ -45,6 +47,7 @@ class Login extends React.Component {
 		return (
 			<div>
 				<p>{from.pathname}</p>
+				<h4>Login</h4>
 				<LoginForm onLogin={this.login} />
 			</div>
 		)
