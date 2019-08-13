@@ -10,7 +10,7 @@ function Jumbotron({ children }) {
       <br></br>
       <a className="btn btn-primary btn-lg login" href="/login" role="button">Sign In</a>
       <a className="btn btn-primary btn-lg register" href="/register" role="button">Sign Up</a>
-      
+      {/* <div className = "tagLine2"> We'll send you an email if the price drops to your desired amount!</div> */}
   </div>;
 }
 

@@ -1,18 +1,18 @@
 import React from "react";
+import "./style.css"
 
-function Form({ q, handleInputChange, handleFormSubmit }) {
+function Form({ q, handleInputChange, handleShopIt, props }) {
   return (
     <form>
       <div className="form-group">
         <label htmlFor="Query">
-          <strong>Book</strong>
         </label>
         <input
           className="form-control"
-          id="Title"
+          id="Price"
           type="text"
           value={q}
-          placeholder="Ready Player One"
+          placeholder="Name Your Price"
           name="q"
           onChange={handleInputChange}
           required
@@ -20,11 +20,11 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
       </div>
       <div className="pull-right">
         <button
-          onClick={handleFormSubmit}
+          onClick={handleShopIt}
           type="submit"
-          className="btn btn-lg btn-danger float-right"
+          className="btn btn-lg btn-danger"
         >
-          Search
+          ShopIt
         </button>
       </div>
     </form>

@@ -21,6 +21,7 @@ import ProtectedRoute from "./pages/PublicRoute";
 import './App.css';
 import MainPage from './components/MainPage';
 import API from './utils/API';
+import Form from './components/Form';
 
 //I want to add some basic inline styling here, even though we are bringing in styles
 const listStyle = {
@@ -105,13 +106,6 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
 		)
 	)}/>
 )
-
-
-
-
-
-
-
 
 export default AuthExample
 

@@ -22,6 +22,9 @@ class MainPage extends Component {
 		  q: value
 		});
 	  };
+
+	//   Make Enter Key activate search bar
+
 	  handleFormSubmit = event => {
 		event.preventDefault();
 		 if (event.key === 'Enter') {

@@ -1,7 +1,8 @@
 .results {
     background-color: white;
     color: black;
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .productInfo {
     background: rgb(181, 184, 8);
@@ -20,5 +21,6 @@ h2 {
     height: 5rem;
     background-color: black;
     color: white;
-    font-size: 20pt
+    font-size: 20pt;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
