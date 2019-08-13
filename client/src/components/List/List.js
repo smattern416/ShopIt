@@ -1,10 +1,10 @@
 import React from "react"
 import "./style.css"
 
-const List = props =>(
+const List = props => (
     <div className="productList">
         <ul>
-           {props.children} 
+            {props.children}
         </ul>
     </div>
 

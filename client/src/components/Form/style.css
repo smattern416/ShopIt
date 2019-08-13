@@ -1,4 +1,16 @@
 #Price {
     background-color: white;
-    width: 50%
+    width: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 8rem;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+.shop {
+    width: 50%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 8rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 2rem;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;    
 }

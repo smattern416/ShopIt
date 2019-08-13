@@ -8,7 +8,6 @@ import {
 	withRouter
 } from 'react-router-dom';
 import Auth from "./utils/Auth";
-import Nav from "./components/Nav";
 import Jumbotron from "./components/Jumbotron";
 import Detail from "./components/Detail";
 import Login from "./components/Login";

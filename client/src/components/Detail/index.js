@@ -5,13 +5,12 @@ import { newid } from "../List/Card"
 import API from "../../utils/API"
 import Form from "../Form"
 
-/* <div>
-<button type="button" class="btn btn-primary btn-lg">Back to Results</button>
-</div> */
 class Detail extends React.Component {
 
   state = {
-    item: ""
+    item: "",
+    submit: "",
+    message: ""
   }
 
   componentDidMount() {
@@ -23,6 +22,27 @@ class Detail extends React.Component {
       })
       .catch(err => { console.log(err) })
   }
+
+  handleShopIt = event => {
+    event.preventDefault()
+    if (this.state.submit === ""){
+      this.setState({ message:"Please enter an amount..."})
+    } else {
+
+    this.setState({ message:"We'll email you when the price drops to your desired amount!"
+    })
+    }
+    this.setState({
+			submit: ""
+		});
+  }
+  handleInputChange = event => {
+		const { value } = event.target;
+		this.setState({
+      submit: value,
+      
+		});
+	};
 
   render() {
 
@@ -48,9 +68,14 @@ class Detail extends React.Component {
               <Form
                 handleInputChange={this.handleInputChange}
                 handleShopIt={this.handleShopIt}
-                >
+                formValue = {this.state.submit}
+
+              >
 
               </Form>
+            </div>
+            <div>
+              <p>{this.state.message}</p>
             </div>
           </div>
         </div>

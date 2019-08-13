@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css"
+import { PromiseProvider } from "mongoose";
 
-function Form({ q, handleInputChange, handleShopIt, props }) {
+function Form({ q, handleInputChange, handleShopIt, props, formValue }) {
   return (
     <form>
       <div className="form-group">
@@ -11,7 +12,7 @@ function Form({ q, handleInputChange, handleShopIt, props }) {
           className="form-control"
           id="Price"
           type="text"
-          value={q}
+          value={formValue}
           placeholder="Name Your Price"
           name="q"
           onChange={handleInputChange}
@@ -22,7 +23,7 @@ function Form({ q, handleInputChange, handleShopIt, props }) {
         <button
           onClick={handleShopIt}
           type="submit"
-          className="btn btn-lg btn-danger"
+          className="btn btn-lg btn-danger shop"
         >
           ShopIt
         </button>

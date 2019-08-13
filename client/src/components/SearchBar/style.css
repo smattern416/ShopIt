@@ -15,8 +15,6 @@
     margin: 0 auto;
     width: 400px;
     align-content: center;
-    /* height: 100px; */
-    /* background-color: pink; */
 }
 nav {
     width: 400px;
@@ -32,4 +30,5 @@ nav {
     font-family: 'Open Sans Condensed', sans-serif;
     align-self: center;
     margin-left: 11rem;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }

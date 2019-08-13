@@ -27,13 +27,13 @@ class Login extends React.Component {
 				});
 			}
 		})
-		.catch((err) => {// No beuno, kick them
+		.catch((err) => {// No bueno, kick them
 			console.log('Error logging in.', err);
 		});
 	}
 
 	render() {
-		const { from } = this.props.location.state || { from: { pathname: '/protected' } }
+		const { from } = this.props.location.state || { from: { pathname: '/' } }
 		const { redirectToReferrer } = this.state
 		
 		if (redirectToReferrer) {
@@ -44,7 +44,7 @@ class Login extends React.Component {
 		
 		return (
 			<div>
-				<p>You must log in to view the page at {from.pathname}</p>
+				<p>{from.pathname}</p>
 				<LoginForm onLogin={this.login} />
 			</div>
 		)
